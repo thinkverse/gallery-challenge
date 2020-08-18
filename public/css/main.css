@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 :root {
   font-family: 'Montserrat', sans-serif;
@@ -139,4 +139,45 @@ body {
 
 .app > footer a:hover {
     text-decoration: underline;
+}
+
+@media (min-width: 1024px) {
+  .app {
+    margin: 4em auto;
+    width: 960px;
+  }
+
+  .profile__header h1 {
+    line-height: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .profile__header h2 {
+    line-height: 2rem;
+    font-size: 0.9rem;
+  }
+
+  .profile__avatar img {
+    border-radius: 60px;
+    width: 156px;
+  }
+
+  .stats__item {
+    padding: 1em 2em;
+    font-size: 0.9rem;
+  }
+
+  .stats__item span {
+    font-size: 1.1rem;
+  }
+
+  .gallery {
+    column-gap: 1.8rem;
+    row-gap: 1.5em;
+  }
+
+  .app > footer {
+    margin-top: 5em;
+    margin-bottom: 2em;
+  }
 }
