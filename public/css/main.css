@@ -173,6 +173,10 @@ body {
     width: 960px;
   }
 
+  .stats {
+    margin-bottom: 3.5em;
+  }
+
   .gallery {
     column-gap: 1.8rem;
     row-gap: 1.5em;
